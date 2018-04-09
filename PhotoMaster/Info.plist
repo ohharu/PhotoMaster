@@ -20,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>Privacy-Camera Usage Description</key>
+	<string>カメラへのアクセスを許可</string>
+	<key>Privacy-Photo Library Usage Description</key>
+	<string>アルバムへのアクセスを許可</string>
+	<key>Privary-Photo Library Usage Description</key>
+	<string>アルバムへの画像の保存を許可</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

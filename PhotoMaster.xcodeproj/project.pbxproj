@@ -12,6 +12,7 @@
 		CB44F0922077C80600B14E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB44F0902077C80600B14E0B /* Main.storyboard */; };
 		CB44F0942077C80600B14E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB44F0932077C80600B14E0B /* Assets.xcassets */; };
 		CB44F0972077C80600B14E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB44F0952077C80600B14E0B /* LaunchScreen.storyboard */; };
+		CB44F09F207B951D00B14E0B /* kitune.png in Resources */ = {isa = PBXBuildFile; fileRef = CB44F09E207B951C00B14E0B /* kitune.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CB44F0932077C80600B14E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB44F0962077C80600B14E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB44F0982077C80600B14E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB44F09E207B951C00B14E0B /* kitune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitune.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CB44F08C2077C80600B14E0B /* AppDelegate.swift */,
 				CB44F08E2077C80600B14E0B /* ViewController.swift */,
 				CB44F0902077C80600B14E0B /* Main.storyboard */,
+				CB44F09E207B951C00B14E0B /* kitune.png */,
 				CB44F0932077C80600B14E0B /* Assets.xcassets */,
 				CB44F0952077C80600B14E0B /* LaunchScreen.storyboard */,
 				CB44F0982077C80600B14E0B /* Info.plist */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB44F0972077C80600B14E0B /* LaunchScreen.storyboard in Resources */,
+				CB44F09F207B951D00B14E0B /* kitune.png in Resources */,
 				CB44F0942077C80600B14E0B /* Assets.xcassets in Resources */,
 				CB44F0922077C80600B14E0B /* Main.storyboard in Resources */,
 			);
@@ -274,11 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VF76A2SW8;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhotoMaster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ohharu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +295,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VF76A2SW8;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhotoMaster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ohharu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
